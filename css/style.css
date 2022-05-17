@@ -1,0 +1,41 @@
+.container{
+    display: flex; /*display flex so em colocar ela ja deixa de ser block e ficar uma abaixo do outro e fica ao lado.*/
+
+    flex-direction: row; /*serve para alterar e colocar lado a lado com o flex ja column coloca um abaixo do outro*/
+
+    /*justify-content: space-around;serve para alinha os conteudo no final do container e se for center vai pra o meio do container e o space-between colocar o item por todo container e deixa um espaço entre eles ja o space-around deixa espaço entre eles e nas margens*/
+
+    /*align-items: flex-start;/*stretch serve para que eles cresça igualmente e flex-start serve para colocar items no inicio e deixa margem abaixo e o center para deixar ao centro*/
+
+    /*flex-flow: wrap ; /*serve para alterar e colocar lado a lado com o flex ja column coloca um abaixo do outro*/
+    background-color: red;
+
+    /*align-content: flex-start; /*serve para colocar no inicio do container e o flex*/
+
+    /*flex-flow:wrap;/*serve para colocar resposividade ao layout  a propriedade nowrap nao permite a quebra de linha e a wrap quebra a linha assim que os itens nao couber nela e ja wrap-reverse a quebra de linha aconte para a linha a cima */
+
+    /*flex item serve para modificar um item dentro do display flex tem a prioridade ordem define a ordem de cada item dentro do container */
+}
+/* com a propriedade ordem e escolhendo o numero vc pode escolher a ordem de cada um seja exibido e a propriedade flax vc escolhe o tamanho do box no cantainer*/
+.container .box-1{
+    flex:1;
+
+}
+.container .box-2{
+    flex:3;
+
+}
+.container .box-3{
+    flex:3;
+
+}.container .box-4{
+    flex:1;
+
+}
+
+
+
+.container  div{
+    border: 1px solid black;
+    padding: 10px;
+}
